@@ -1,5 +1,0 @@
-"""  Write a list comprehension to print a list which contains the multiplication table of a 
-user entered number.  """
-
-x = int(input("Enter the Number: "))
-[print(f"{x} x {i} = {x*i}") for i in range(1, 11)]
